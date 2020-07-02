@@ -13,18 +13,31 @@ Given encoded message "123",  it could be decoded as "ABC" (1 2 3) or "LC" (12 3
 So total ways are 3.
 
 Input:
+
 First line contains the test cases T.  1<=T<=1000
+
 Each test case have two lines
+
 First is length of string N.  1<=N<=40
+
 Second line is string S of digits from '0' to '9' of N length.
 
 Example:
+
 Input:
+
 2
+
 3
+
 123
+
 4
+
 2563
+
 Output:
+
 3
+
 2
