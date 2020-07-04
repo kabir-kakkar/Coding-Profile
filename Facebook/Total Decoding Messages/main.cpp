@@ -15,14 +15,19 @@ int main()
         string s;
         cin >> s;
 
-        int dp[n+1];
+        int dp[n+1] = {0};
         dp[0] = 1;
         dp[1] = s[0] == '0' ? 0 : 1;
 
         for (int i = 2; i <= n; i++)
         {
-            int oneDigit = std::stoi (s.substr (i-1, i));
-            int twoDigit = std::stoi (s.substr (i-2, i));
+            stringstream gk1(s.substr (i-1, i));
+            int oneDigit;
+            gk1 >> oneDigit;
+
+            stringstream gk2(s.substr (i-2, i));
+            int twoDigit;
+            gk2 >> twoDigit;
 
             if (oneDigit >= 1) {
                 dp[i] += dp[i-1];
@@ -31,6 +36,7 @@ int main()
                 dp[i] += dp[i-2];
             }
         }
+
         cout << dp[n] << "\n";
     }
 
