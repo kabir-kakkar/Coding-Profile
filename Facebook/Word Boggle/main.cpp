@@ -5,6 +5,8 @@ int n, m, x;
 char boggle[10][10];
 string dictonary[12];
 
+bool flag = false;
+
 bool isWord(string &str) {
     for (int i = 0; i < x; i++)
         if (str.compare(dictonary[i]) == 0)
@@ -16,8 +18,10 @@ void findWordsUtil (bool visited[][10], int i, int j, string &str) {
     visited[i][j] = true;
     str = str + boggle[i][j];
 
-    if (isWord(str))
-        cout << str << endl;
+    if (isWord(str)) {
+            flag = true;
+            cout << str << endl;
+    }
 
     for (int row = i-1; row <= i+1 && row<n; row++) {
         for (int col = j-1; col <= j+1 && col<m; col++) {
@@ -63,6 +67,9 @@ int main() {
             }
         }
 
+        if (!flag)
+            cout << "-1\n";
+        flag = false;
     }
 
     return 0;
