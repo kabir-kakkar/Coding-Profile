@@ -22,7 +22,7 @@ void findWordsUtil (bool visited[][10], int i, int j, string &str) {
     for (int row = i-1; row <= i+1 && row<n; row++) {
         for (int col = j-1; col <= j+1 && col<m; col++) {
             if (row >= 0 && col >= 0 && !visited[row][col]) {
-                findWordsUtil (visited, i, j, str);
+                findWordsUtil (visited, row, col, str);
             }
         }
     }
