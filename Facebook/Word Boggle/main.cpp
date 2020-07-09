@@ -26,10 +26,13 @@ void findWordsUtil (bool visited[][10], int i, int j, string &str) {
             }
         }
     }
+
+    str.erase(str.length() - 1);
+	visited[i][j] = false;
 }
 
 int main() {
-  //  freopen("input.txt", "r", stdin);
+   freopen("input.txt", "r", stdin);
 
     int t;
     cin >> t;
