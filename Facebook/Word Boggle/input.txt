@@ -1,5 +1,5 @@
 1
-4
-GEEKS FOR QUIZ GO
-3 3
-G I Z U E K Q S E
+2
+db bcd
+5 2
+d d b f e c b c d c
