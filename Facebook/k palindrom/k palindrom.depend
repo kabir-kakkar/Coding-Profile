@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1595599034 source:c:\users\hp\desktop\coding questions company wise\facebook\k palindrom\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+
