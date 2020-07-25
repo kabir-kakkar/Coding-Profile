@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1595686583 source:c:\users\hp\desktop\coding questions company wise\facebook\find all triplets with zero sum\main.cpp
+	<bits/stdc++.h>
+	<stdlib.h>
+	<iostream>
+
