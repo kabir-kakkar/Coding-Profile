@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 bool isPerfectSquare(int n)
 {
     for (int i = 1; i * i <= n; i++) {
@@ -41,4 +39,34 @@ int main() {
 	return 0;
 }
 
-
+// Solution 2
+//
+//bool Fibo (int n) {
+//    int a = 0, b = 1, c = 0;
+//    while (c <= n) {
+//        if (c==n)
+//            return true;
+//        a=b;
+//        b=c;
+//        c=a+b;
+//    }
+//    return false;
+//}
+//
+//int main () {
+//    freopen("input.txt", "r", stdin);
+//    int t;
+//    cin >> t;
+//
+//    while (t--) {
+//        int n;
+//        cin >> n;
+//        while (n--) {
+//            int ele;
+//            cin >> ele;
+//            if (Fibo(ele))
+//                cout << ele << " ";
+//        }
+//        cout << endl;
+//    }
+//}
