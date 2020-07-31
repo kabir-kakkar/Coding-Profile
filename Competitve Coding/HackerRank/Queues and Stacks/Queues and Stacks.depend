@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585459844 source:c:\others\competitive coding\hackerrank\queues and stacks\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<string>
+

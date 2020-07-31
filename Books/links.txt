@@ -1,0 +1,2 @@
+https://www.geeksforgeeks.org/naive-algorithm-for-pattern-searching/
+https://discuss.codechef.com/t/data-structures-and-algorithms/6599

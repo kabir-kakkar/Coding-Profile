@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1543757433 source:c:\c progs\calc_1_in_2darray\main.c
+	<stdio.h>
+	<stdlib.h>
+

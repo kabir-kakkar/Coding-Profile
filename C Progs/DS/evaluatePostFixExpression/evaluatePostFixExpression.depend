@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1537942295 source:c:\c progs\evaluatepostfixexpression\main.c
+	<stdio.h>
+	<stdlib.h>
+

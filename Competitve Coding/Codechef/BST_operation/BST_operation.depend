@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1562672395 source:c:\codechef probs\bst_operation\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<stdlib.h>
+

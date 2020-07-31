@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1580218409 source:c:\others\competitive coding\hackerrank\abstract classes\abstractclass\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<string>
+

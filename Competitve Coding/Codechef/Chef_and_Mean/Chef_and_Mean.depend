@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1562401242 source:c:\codechef probs\chef_and_mean\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

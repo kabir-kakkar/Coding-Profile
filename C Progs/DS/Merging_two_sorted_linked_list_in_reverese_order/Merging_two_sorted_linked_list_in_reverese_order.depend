@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1543689156 source:c:\c progs\merging_two_sorted_linked_list_in_reverese_order\main.c
+	<stdio.h>
+	<stdlib.h>
+

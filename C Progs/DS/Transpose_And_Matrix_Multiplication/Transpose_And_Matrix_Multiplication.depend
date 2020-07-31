@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1543748269 source:c:\c progs\transpose_and_matrix_multiplication\main.c
+	<stdio.h>
+	<stdlib.h>
+
